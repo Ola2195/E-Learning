@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    background-image: url(../img/tło_login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal_contener {
+    position: fixed;
+    background-image: linear-gradient(#4f9ce1, #dfdfdf);    
+    padding: 30px;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.5);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    color: #fff;
+}
+.modal_contener {
+    width: 30%;
+    left: 34%;
+    top: 20vh;
+}
+#logIn>.modal_contener {
+    top: 20vh;
+}
+#register>.modal_contener {
+    top: 3vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.modal_contener>h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+.close {
+    position: absolute;
+    right: 10%;
+    color: white;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#form {
+    text-align: center;
+}
+#form>#alert {
+    font-weight: 700;
+    color: #c51f1f;
+}
+#form>.text {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+}
+#form>.half1 {
+    position: relative;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+#form>.half2 {
+    position: relative;
+    float: left;
+    width: 48%;
+}
+#form>#level {
+    display: none;
+}
+#form>button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: 2px solid #366345;
+    background-image: linear-gradient(#11a543, #1d9e48);
+    color: white;
+    border: none;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+}
+#form>p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #424242;
+}
+#form>.roles {
+    position: relative;
+    float: left;
+    width: 50%;
+    border-radius: 15px;
+}
+#form>.roles>label>img {
+    width: 90px;
+    margin: 5px;
+    margin-bottom: 10px;
+}

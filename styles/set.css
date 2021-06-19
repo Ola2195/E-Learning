@@ -1,0 +1,57 @@
+#form_edit {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-bottom: 40px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+#form_edit > label {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4188ab;
+    font-weight: 700;
+    margin-right: 20px;
+    width: 47%;
+    float: left;
+    text-align: right;
+    margin-top: 3px;
+}
+#form_edit > input, #form_edit > select {
+    margin-bottom: 25px;
+    font-size: 16px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #2c2c2c;
+    padding: 5px;
+    margin-top: -3px;
+    width: 40%;
+    box-sizing: border-box;
+}
+#form_edit > textarea {
+    box-sizing: border-box;
+    width: 40%;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: justify;
+    color: #2c2c2c;
+    border: none;
+}
+#form_edit > button {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 1100px) {
+    #form_edit {
+        width: 90%;
+    }
+}
