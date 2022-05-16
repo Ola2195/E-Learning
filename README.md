@@ -13,11 +13,11 @@ What's more, this website allows to view the nearest available date for the tuto
 
 
 ## Setup
-You need XAMPP (minimum Version 7.4.4) to run the project.
-After you have downloaded all files, put them in the 'htdocs' folder, which you can find in the 'xampp' folder. \
-Then the database - file 'korepetycje.sql', import in PhpMyAdmin as a new database. 
-You should change the database datas in files - 'functions/needed.php' in line 7, 'functions/login_register.php' in line 7 and 'functions/login_register.php' in line 7. Without that the platform will not be able to properly connect to the database. \
-Finally, to open the page, enter the path to the main file 'index.php' in the browser window. You must start with 'localhost'.\
+You need XAMPP (minimum Version 7.4.4) to run the project.\
+1) Download all files and put them in the 'htdocs' folder, which you can find in the 'xampp' folder.\
+2) The database - file 'korepetycje.sql', import in PhpMyAdmin as a new database. \
+3) Change the database datas in files - 'functions/needed.php' in line 7, 'functions/login_register.php' in line 7 and 'functions/login_register.php' in line 7. Without that the platform will not be able to properly connect to the database. \
+4) Enter the path to the main file 'index.php' in the browser window. You must start with 'localhost'.\
 E.g. "localhost/E-Learning/index.php"
 
 ### The project is still under development.
